@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'verdana';
+}
+.container {
+  position: relative;
+  z-index: -9;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgb(0, 0, 0), 65%, rgb(0, 4, 255));
+}
+.form-init {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(250, 235, 215, 0.09);
+}
+.container > .text {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text > .circle-text {
+  transform: rotate(-56.4deg);
+  position: absolute;
+  margin-top: 25vh;
+  font-family: 'verdana';
+  font-size: 70px;
+  font-weight: 700;
+  color: white;
+}
+.circle-text > p{
+  transform-origin: 100px 600px;
+  position:absolute;
+  display: inline-block;
+  margin-right:10px;
+}
+.container > .text > .text-normal {
+  margin-top: 15vh;
+  font-size: 50px;
+  font-family: 'verdana';
+  font-weight: bold;
+  color: white;
+}
+.time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.time > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+}
+.time > div > .countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'verdana';
+  font-weight: 600;
+  font-size: 70px;
+  width: 80%;
+  height: 300px;
+  background: linear-gradient(black, 70%, transparent);
+  color: aliceblue;
+}
+.time > div > .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'verdana';
+  font-weight: 600;
+  font-size: larger;
+  width: 80%;
+  height: 40px;
+  margin-top: -40px;
+  background-color: darkgoldenrod;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+/* form style */
+form {
+  width: 500px;
+  height: 50vh;
+  border-radius: 10px;
+  background-color: aliceblue;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  margin: 10px 0;
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid rgb(123, 176, 255);
+  outline: none;
+  padding: 0 5px;
+  background-color: transparent;
+}
+form > div {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+button {
+  border: none;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(0, 183, 255);
+}
