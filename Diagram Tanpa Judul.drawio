@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T06:50:48.667Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="JELKso6AeDKuef2wBeZK" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-15T07:11:01.497Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="5L6g71Tz4biL_nztVJTE" version="22.0.4" type="github">
   <diagram name="Halaman-1" id="RvcAXBuDPvf-XHA0VvlI">
-    <mxGraphModel dx="1405" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="2388" dy="1470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -328,7 +328,7 @@
             <mxPoint x="865" y="1529.38" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoQG7UPilnTC0wIysXsR-112" value="status buku &quot;tersedia&quot;" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=5;" vertex="1" parent="1">
+        <mxCell id="GoQG7UPilnTC0wIysXsR-112" value="status buku &quot;tersedia&quot;,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;update jumlah buku&amp;nbsp; &amp;nbsp; tersebut +1" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=5;" vertex="1" parent="1">
           <mxGeometry x="800" y="870" width="155" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GoQG7UPilnTC0wIysXsR-113" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.515;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GoQG7UPilnTC0wIysXsR-112">
