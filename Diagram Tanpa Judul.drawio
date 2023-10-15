@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T05:55:17.016Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="yXGauST-OpbF0ehSYPbq" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-15T06:50:48.667Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="JELKso6AeDKuef2wBeZK" version="22.0.4" type="github">
   <diagram name="Halaman-1" id="RvcAXBuDPvf-XHA0VvlI">
-    <mxGraphModel dx="3411" dy="2100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+    <mxGraphModel dx="1405" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -133,8 +133,8 @@
             <mxPoint x="675" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GoQG7UPilnTC0wIysXsR-47" value="data peminjam tersimpan&amp;nbsp; dan status buku &quot;dipesan&quot;&amp;nbsp;&amp;nbsp;" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=5;" vertex="1" parent="1">
-          <mxGeometry x="600" y="880" width="155" height="50" as="geometry" />
+        <mxCell id="GoQG7UPilnTC0wIysXsR-47" value="&lt;br&gt;data peminjam tersimpan,&amp;nbsp; status buku &quot;dipesan&quot;, dan&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;update jumlah buku&amp;nbsp; tersebut -1&lt;br&gt;&amp;nbsp;" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=5;" vertex="1" parent="1">
+          <mxGeometry x="600" y="870" width="155" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GoQG7UPilnTC0wIysXsR-49" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -143,15 +143,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GoQG7UPilnTC0wIysXsR-50" value="peminjam datang mengambil buku" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="615" y="1000" width="120" height="40" as="geometry" />
+          <mxGeometry x="617.5" y="1000" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GoQG7UPilnTC0wIysXsR-51" value="peminjam memberikan bukti peminjaman" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="615" y="1110" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GoQG7UPilnTC0wIysXsR-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="GoQG7UPilnTC0wIysXsR-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GoQG7UPilnTC0wIysXsR-50">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="674" y="1040" as="sourcePoint" />
-            <mxPoint x="674" y="1090" as="targetPoint" />
+            <mxPoint x="678" y="1090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="678" y="1070" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="GoQG7UPilnTC0wIysXsR-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.008;exitY=0.597;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GoQG7UPilnTC0wIysXsR-51">
@@ -175,19 +178,19 @@
         <mxCell id="GoQG7UPilnTC0wIysXsR-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GoQG7UPilnTC0wIysXsR-55">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="735" y="1010" as="sourcePoint" />
-            <mxPoint x="855" y="1060" as="targetPoint" />
+            <mxPoint x="855" y="1070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GoQG7UPilnTC0wIysXsR-62" value="bukti terverifikasi" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="785" y="970" width="140" height="80" as="geometry" />
+          <mxGeometry x="785" y="980" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GoQG7UPilnTC0wIysXsR-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GoQG7UPilnTC0wIysXsR-62">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="735" y="1010" as="sourcePoint" />
-            <mxPoint x="885" y="810" as="targetPoint" />
+            <mxPoint x="855" y="930" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="855" y="900" />
-              <mxPoint x="885" y="900" />
+              <mxPoint x="855" y="950" />
+              <mxPoint x="855" y="940" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -197,12 +200,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GoQG7UPilnTC0wIysXsR-64" value="peminjam berhasil melakukan peminjaman" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1005" y="980" width="120" height="60" as="geometry" />
+          <mxGeometry x="1005" y="870" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GoQG7UPilnTC0wIysXsR-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="GoQG7UPilnTC0wIysXsR-66" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GoQG7UPilnTC0wIysXsR-62">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="925" y="1009.6199999999999" as="sourcePoint" />
-            <mxPoint x="995" y="1010" as="targetPoint" />
+            <mxPoint x="995" y="1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GoQG7UPilnTC0wIysXsR-71" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GoQG7UPilnTC0wIysXsR-66">
@@ -211,12 +214,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GoQG7UPilnTC0wIysXsR-67" value="status buku &quot;dipinjam&quot;" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=5;" vertex="1" parent="1">
-          <mxGeometry x="987.5" y="870" width="155" height="50" as="geometry" />
+          <mxGeometry x="1005" y="995" width="155" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GoQG7UPilnTC0wIysXsR-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GoQG7UPilnTC0wIysXsR-64">
+        <mxCell id="GoQG7UPilnTC0wIysXsR-68" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.414;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GoQG7UPilnTC0wIysXsR-67">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="775" y="880" as="sourcePoint" />
-            <mxPoint x="1065" y="930" as="targetPoint" />
+            <mxPoint x="1060" y="970" as="sourcePoint" />
+            <mxPoint x="1069" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GoQG7UPilnTC0wIysXsR-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
@@ -232,6 +235,106 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1107.5" y="840" as="sourcePoint" />
             <mxPoint x="677.5" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-87" value="&lt;span style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;Peminjaman Buku&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="10" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-88" value="&lt;span style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;Pengembalian Buku&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="1200" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-90" value="mulai" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1290" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-91" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GoQG7UPilnTC0wIysXsR-90">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="1360" as="sourcePoint" />
+            <mxPoint x="280" y="1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-92" value="peminjam datang mengembalikan buku" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-93" value="petugas mengecek data peminjaman buku" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1510" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-94" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="279.38" y="1440" as="sourcePoint" />
+            <mxPoint x="279.38" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-95" value="tanggal pengembalian tepat waktu" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1490" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-96" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GoQG7UPilnTC0wIysXsR-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="1330" as="sourcePoint" />
+            <mxPoint x="410" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-97" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="1529.3700000000001" as="sourcePoint" />
+            <mxPoint x="630" y="1529.3700000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-99" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GoQG7UPilnTC0wIysXsR-97">
+          <mxGeometry x="-0.05" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-100" value="selesai" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1510" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-101" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="489" y="1570" as="sourcePoint" />
+            <mxPoint x="489" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-102" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GoQG7UPilnTC0wIysXsR-101">
+          <mxGeometry x="-0.1143" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-103" value="petugas menghitung denda sesuai ketentuan yang berlaku" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-104" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="489.37" y="1710" as="sourcePoint" />
+            <mxPoint x="489.37" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-105" value="peminjam membayar denda buku" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1780" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-109" value="status buku &quot;tersedia&quot;,&lt;br&gt;update jumlah buku&amp;nbsp; &amp;nbsp; tersebut +1" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=5;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1505" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-110" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GoQG7UPilnTC0wIysXsR-105">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="1490" as="sourcePoint" />
+            <mxPoint x="720" y="1580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="1800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-111" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="795" y="1529.38" as="sourcePoint" />
+            <mxPoint x="865" y="1529.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-112" value="status buku &quot;tersedia&quot;" style="shape=dataStorage;whiteSpace=wrap;html=1;fixedSize=1;size=5;" vertex="1" parent="1">
+          <mxGeometry x="800" y="870" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GoQG7UPilnTC0wIysXsR-113" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.515;exitY=-0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GoQG7UPilnTC0wIysXsR-112">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="940" as="sourcePoint" />
+            <mxPoint x="880" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
